@@ -215,7 +215,7 @@ cover all the possibilities.
 
 !SLIDE
 
-# all this and mode
+# all this and more
 
 When you declare a class with the `case` modifier in Scala, you get a lot of built-in functionality for free!
 <br>
