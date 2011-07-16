@@ -31,6 +31,26 @@ Novus Partners
 
 !SLIDE
 
+# Try it out!
+
+The sample code shown in this presentation is available at:
+<br/>
+[rktoomey/scalathon-crash-course](https://github.com/rktoomey/scalathon-crash-course).
+<br/>
+<br/>
+You can build and run the project using [simple-build-tool](http://code.google.com/p/simple-build-tool/) 0.7.
+<br/>
+<br/>
+The quickest way to get started experimenting is to clone the project and run ``sbt console`` to use a Scala
+interpreter with a classpath that includes compiled sources and managed libs:
+
+    ~ $ git clone git://github.com/rktoomey/scalathon-crash-course.git
+    ~ $ cd scalathon-crash-course
+    ~/scalathon-crash-course $ sbt update
+    ~/scalathon-crash-course $ sbt console
+
+!SLIDE
+
 # constant patterns
 <br>
 Here is a function that matches an incoming String against constant values.
@@ -527,7 +547,7 @@ Now the compiler can warn you is the match is non-exhaustive:
 
 !SLIDE
 
-# enums: probably not what you wanted
+# enums: these are not the droids you are looking for
 
     scala> object Color extends Enumeration {
          | val Red, Green, Blue = Value
